@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Q2 - Product Highlight</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="q2_products.js" defer></script>
+  <style>
+    .product { padding:12px; border:1px solid #ddd; margin:8px; width:200px; display:inline-block; vertical-align:top; }
+    .highlight { background:#fff7cc; }
+    .favorite { color:red; }
+    .discount { border-color: green; }
+    .out { opacity:0.5; }
+  </style>
+</head>
+<body>
+  <main>
+    <h2>Products</h2>
+    <section id="product-list" aria-live="polite">
+      <article class="product" data-id="1" data-stock="5" data-discount="10">
+        <h3 class="title">Backpack</h3>
+        <p class="price">$49.99</p>
+        <p class="details" hidden>Waterproof, 20L capacity</p>
+        <button class="fav">♡ Favorite</button>
+      </article>
+
+      <article class="product" data-id="2" data-stock="0" data-discount="0">
+        <h3 class="title">Wireless Mouse</h3>
+        <p class="price">$19.99</p>
+        <p class="details" hidden>Ergonomic, 2-year battery</p>
+        <button class="fav">♡ Favorite</button>
+      </article>
+
+      <article class="product" data-id="3" data-stock="10" data-discount="30">
+        <h3 class="title">Noise-cancelling Headphones</h3>
+        <p class="price">$89.99</p>
+        <p class="details" hidden>Over-ear, Bluetooth 5</p>
+        <button class="fav">♡ Favorite</button>
+      </article>
+
+      <article class="product" data-id="4" data-stock="2" data-discount="0">
+        <h3 class="title">Notebook</h3>
+        <p class="price">$4.99</p>
+        <p class="details" hidden>Hardcover, 200 pages</p>
+        <button class="fav">♡ Favorite</button>
+      </article>
+
+      <article class="product" data-id="5" data-stock="0" data-discount="15">
+        <h3 class="title">Smart Lamp</h3>
+        <p class="price">$29.99</p>
+        <p class="details" hidden>RGB, App control</p>
+        <button class="fav">♡ Favorite</button>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

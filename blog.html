@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Q8 - Blog Admin</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="q8_blog.js" defer></script>
+  <style>.post{ padding:10px; border:1px solid #ccc; margin:8px; }.featured{ border-color:gold; }</style>
+</head>
+<body>
+  <main>
+    <h2>Blog Posts</h2>
+    <div>
+      <input id="title" placeholder="Title" />
+      <input id="tags" placeholder="Tags (comma separated)" />
+      <button id="add-post">Add New Post</button>
+      <button id="prepend-featured">Prepend Featured Post</button>
+      <button id="remove-last">Remove Last Post</button>
+    </div>
+
+    <section id="posts">
+      <article class="post">Post about JavaScript</article>
+      <article class="post">Learning CSS Grid</article>
+      <article class="post">Intro to Node</article>
+      <article class="post">Accessibility Tips</article>
+      <article class="post">Performance Tricks</article>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Q5 - Team Directory</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="q5_team.js" defer></script>
+  <style>
+    .member { padding:6px; margin:4px; border:1px solid #ddd; }
+    .mgr { background:#eef; cursor:pointer; }
+    .contact { display:none; font-size:0.9em; color:#333; }
+    .selected { background:#ffd; }
+  </style>
+</head>
+<body>
+  <main>
+    <h2>Engineering Team</h2>
+    <section id="teams">
+      <div class="department" data-dept="frontend">
+        <h3 class="dept-title">Frontend</h3>
+        <div class="members">
+          <div class="member mgr" data-role="manager" data-name="Asha">Asha (Manager)</div>
+          <div class="member" data-name="Priya">Priya <div class="contact">pri@company.com</div></div>
+          <div class="member" data-name="Rita">Rita <div class="contact">rita@company.com</div></div>
+        </div>
+      </div>
+
+      <div class="department" data-dept="backend">
+        <h3 class="dept-title">Backend</h3>
+        <div class="members">
+          <div class="member mgr" data-role="manager" data-name="Karan">Karan (Manager)</div>
+          <div class="member" data-name="Sameer">Sameer <div class="contact">sameer@company.com</div></div>
+          <div class="member" data-name="Aditya">Aditya <div class="contact">aditya@company.com</div></div>
+        </div>
+      </div>
+    </section>
+
+    <div>
+      <button id="random-emp">Select Random Employee</button>
+      <button id="toggle-team">Collapse/Expand Team</button>
+    </div>
+  </main>
+</body>
+</html>
