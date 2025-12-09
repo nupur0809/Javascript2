@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "name": "Amit Kumar",
+      "section": "b",
+      "marks": 85,
+      "id": "1"
+    },
+    {
+      "id": "dead",
+      "name": "Palak Bhardwaj",
+      "section": "H",
+      "marks": 93
+    },
+    {
+      "id": "8c69",
+      "name": "bhavya",
+      "section": "H",
+      "marks": 90
+    },
+    {
+      "id": "14f4",
+      "name": "yuvraj",
+      "section": "h",
+      "marks": 67
+    }
+  ]
+}

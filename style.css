@@ -1,0 +1,146 @@
+/* =====================
+   Global Purple Neon Background
+===================== */
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    margin: 30px;
+    background: radial-gradient(circle at top, #2d0057, #0b001a);
+    color: #e3d8ff;
+}
+
+/* Smooth transitions for neon effects */
+* {
+    transition: all 0.25s ease-in-out;
+}
+
+/* =====================
+   Neon Form Container
+===================== */
+.form-container {
+    width: 350px;
+    padding: 28px;
+    background: rgba(40, 0, 70, 0.5);
+    border-radius: 18px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 25px rgba(166, 0, 255, 0.4);
+    border: 1px solid rgba(166, 0, 255, 0.6);
+    margin-bottom: 40px;
+}
+
+.form-container h3 {
+    margin-bottom: 18px;
+    color: #e3d8ff;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+/* =====================
+   Neon Inputs
+===================== */
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    background: rgba(75, 0, 130, 0.4);
+    border: 1px solid #9932ff;
+    margin-bottom: 14px;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #d7c2ff;
+    opacity: 0.7;
+}
+
+input:focus {
+    border-color: #c266ff;
+    background: rgba(135, 0, 255, 0.5);
+    box-shadow: 0 0 12px #b44dff;
+    outline: none;
+}
+
+/* =====================
+   Neon Buttons
+===================== */
+button {
+    padding: 11px 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #9b00ff, #d500ff);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: 0 0 15px rgba(179, 0, 255, 0.6);
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 25px rgba(200, 0, 255, 0.9);
+}
+
+/* =====================
+   Neon Table Styling
+===================== */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    background: rgba(32, 0, 54, 0.6);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(150, 0, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+/* Header */
+th {
+    background: linear-gradient(135deg, #8b00ff, #d000ff);
+    color: #fff;
+    padding: 14px;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 0 0 10px #ff2bff;
+}
+
+/* Table Cells */
+td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid rgba(200, 0, 255, 0.2);
+    font-size: 14px;
+    color: #f4e6ff;
+}
+
+/* Neon zebra stripes */
+tbody tr:nth-child(even) {
+    background: rgba(80, 0, 120, 0.35);
+}
+
+/* Neon hover glow */
+tbody tr:hover {
+    background: rgba(160, 0, 255, 0.25);
+    transform: scale(1.02);
+    box-shadow: 0 0 18px rgba(180, 0, 255, 0.5);
+}
+
+/* =====================
+   Neon Headings
+===================== */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: #d7b3ff;
+    font-weight: 800;
+    text-shadow: 0 0 20px #b300ff;
+}
+
+h2 {
+    font-size: 26px;
+    color: #e6c6ff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-shadow: 0 0 10px #9b00ff;
+}
